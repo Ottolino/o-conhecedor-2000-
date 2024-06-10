@@ -1,0 +1,55 @@
+<html>
+   <head>
+     <title>o conhecedor 2000 💳</title>    
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+ 
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+
+
+    <body>
+    <div class="container">
+
+        <center>
+          <button type="button" class="btn-outline-light heading">o connhecedor 2000💳</button>
+          <br><br>
+
+          <p style="font-size: 22px;">o modelo e treinado para identificar 4 objetoss:</p>
+
+          <b class="name_of_objects">
+           dado
+           <hr>
+           linha
+           <hr>
+           livro
+           <hr>
+           siri
+           <hr>
+          </b>
+
+          <label>📸🩻</label>
+          <div id="camera"></div>
+          <br><br><br><br>
+          <div id="result"></div>
+          <br><br><br><br>
+          <button onclick="take_snapshot();" type="button" class="btn btn-primary btn-sm" type="button" class="btn btn-primary btn-sm">📸🎲📦🔪🎻</button>
+          <br><br><br><br>
+          <button onclick="check();"type="button" class="btn btn-primary btn-sm"type="button" class="btn btn-outline-warning">objetos</button>
+          <br><br><br>
+
+          <p style="font-size: 22px;">objetos :<span id="result_object_name"></span></p>
+          <p style="font-size: 22px;">Precisão : <span id="result_object_accuracy"></span></p>
+        </center>
+
+    </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
